@@ -1,0 +1,70 @@
+.box {
+    position: absolute;
+
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    z-index: 1;
+}
+
+.container{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    z-index: -1;
+}
+
+/*form*/
+
+.wraper-main {
+    width: 500px;
+    margin: 0 auto;
+}
+.form {
+    width: 400px;
+    height: 550px;
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid aquamarine;
+    background-color: whitesmoke;
+}
+
+
+textarea,
+input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea:focus,
+input:focus {
+    outline: 1px solid black;
+}
+
+input[type="radio"] {
+    appearance: radio;
+}
+
+input[type="checkbox"] {
+    appearance: checkbox;
+}
+
+select{
+    border: 1px solid #ccc;
+    width: 60px;
+}
+
+input[type="reset"],
+input[type="Submit"] {
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+input[type=text], textarea, select, button {
+    padding: 10px;
+    border-radius: 5px;
+}

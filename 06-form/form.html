@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="box.css">
+</head>
+<body>
+    <section class="wraper-main">
+        <div class="form" id="form">
+            <form action="index.html" method="Post" enctype="multipart/form-data">
+                <label for="username">Username:</label> <br>
+                <input type="text" id="username" minlength="6" maxlength="16" required placeholder="Shadow0001"><br>
+    
+                <label for="password">Password:</label> <br>
+                <input type="password" id="password" minlenth="6" maxlenth="16" required><br>
+    
+                <label for="Email">Email:</label><br>
+                <input type="email" id="email" placeholder="abcdefgh@gmail.com" required><br>
+    
+                <label for="Phone">Phone:</label><br>
+                <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+    
+                <label for="bday">Birthday:</label><br>
+                <input type="date" id="bday" required><br>
+    
+                <label for="Quantity">Quantity:</label><br>
+                <input type="number" id="quantiry" required><br>
+    
+                <label for="Mr.">Mr.</label>
+                <input type="radio" id="Mr." value="Mr." name="title">
+                <label for="Mrs.">Mrs.</label>
+                <input type="Radio" id="Mrs." value="Mrs." name="title">
+                <label for="Phd">Phd.</label>
+                <input type="radio" id="Phd" value="Phd" name="title"><br>
+    
+                <label for="payment">Payment:</label>
+                <select id="payment">
+                    <option value="VISA">VISA</option>
+                    <option value="MASTER CARD">MASTER CARD</option>
+                    <option value="GIFT CARD">GIFT CARD</option>
+                </select><br>
+    
+                <label for="checkbox">Checkbox:</label>
+                <input type="checkbox" id="checkbox"><br>
+    
+                <label for="comment">Comment:</label><br>
+                <textarea id="comment" rows="3" cols="25" placeholder="Write here something........."></textarea><br>
+                <label for="file">File:</label>
+                <input type="File" id="file" accept="image/png, image/jpeg"><br>
+                
+                <input type="reset">
+                <input type="Submit">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
