@@ -1,0 +1,16 @@
+let toggler = document.getElementById("switch");
+
+toggler.addEventListener("click", () => {
+    // if (toggler.checked === true) {
+    //    document.body.style.backgroundColor = "black"; 
+    // }
+    // else {
+    //     document.body.style.backgroundColor = "white"; 
+    // }
+
+    toggler.checked ===true
+    ? (document.body.style.backgroundColor = "black")
+    : (document.body.style.backgroundColor = "white")
+});
+
+// You can use either if-else statement or before-after statement 
