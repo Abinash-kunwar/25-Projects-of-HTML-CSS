@@ -1,1 +1,1 @@
-# 25-Projects-of-HTML-CSS
+# 25-Projects-of-HTML-CSS-Javascript
